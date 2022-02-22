@@ -1,0 +1,185 @@
+<resources>
+    <!-- 画面テキスト -->
+    <string name="app_name">FuncSaisu</string>
+    <string name="Main_name">才数計算アプリ</string>
+    <string name="Load_ui">荷物画面</string>
+    <string name="Client_ui">顧客画面</string>
+    <string name="Purchase_ui">買取画面</string>
+    <string name="Record_ui">新規追加画面</string>
+    <string name="Waste_ui">廃棄画面</string>
+    <string name="Menu_ui">メニュー画面</string>
+    <string name="Confirmation_ui">確認画面</string>
+    <string name="Client_Menu_ui">顧客別メニュー</string>
+
+    <!-- ボタンテキスト -->
+    <string name="OK_btn">OK</string>
+    <string name="Load_btn">荷物画面</string>
+    <string name="Client_btn">顧客画面</string>
+    <string name="Purchase_btn">買取画面</string>
+    <string name="Record_btn">新規追加画面</string>
+    <string name="Waste_btn">廃棄画面</string>
+    <string name="Menu_btn">メニュー画面</string>
+    <string name="Confirmation_btn">確認画面</string>
+    <string name="todo">TODO</string>
+    <string name="update">リスト更新</string>
+
+
+    <!-- その他テキスト -->
+    <string name="text0">仮</string>
+    <string name="text1">↓登録済みリスト↓</string>
+    <string name="text2">登録するお客様名</string>
+    <string name="text3">台</string>
+    <string name="text4">登録</string>
+
+    <!-- テーブルテキスト -->
+    <string name="clm_1">No.</string>
+    <string name="clm_2">什器・荷物</string>
+    <string name="clm_3">サイズ</string>
+    <string name="clm_4">台数</string>
+
+    <!-- サイズリスト -->
+    <string name="n_text1">1</string>
+    <string name="n_text2">2</string>
+    <string name="n_text3">3</string>
+    <string name="n_text4">4</string>
+    <string name="n_text5">5</string>
+    <string name="n_text6">6</string>
+    <string name="n_text7">7</string>
+    <string name="n_text8">8</string>
+    <string name="n_text9">9</string>
+    <string name="n_text10">10</string>
+    <string name="n_text11">11</string>
+    <string name="n_text12">12</string>
+    <string name="n_text13">13</string>
+    <string name="n_text14">14</string>
+    <string name="n_text15">15</string>
+    <string name="n_text16">16</string>
+    <string name="n_text17">17</string>
+    <string name="n_text18">18</string>
+    <string name="n_text19">19</string>
+    <string name="n_text20">20</string>
+    <string name="n_text21">21</string>
+    <string name="n_text22">22</string>
+    <string name="n_text23">23</string>
+    <string name="n_text24">24</string>
+    <string name="n_text25">25</string>
+    <string name="n_text26">26</string>
+    <string name="n_text27">27</string>
+    <string name="n_text28">28</string>
+    <string name="n_text29">29</string>
+    <string name="n_text30">30</string>
+
+
+    <!-- 什器・荷物リスト -->
+    <string-array name="k_list">
+        <item></item>
+        <item>オフィスデスク</item>
+        <item>ミーティングテーブル</item>
+        <item>その他テーブル</item>
+        <item>カウンター</item>
+        <item>フラップテーブル</item>
+        <item>オフィスチェア</item>
+        <item>オフィスチェア</item>
+        <item>ミーティングチェア</item>
+        <item>応接テーブル</item>
+        <item>応接チェア</item>
+        <item>キャビネット</item>
+        <item>ロッカー</item>
+        <item>本棚</item>
+        <item>金庫</item>
+        <item>複合機</item>
+        <item>冷蔵庫</item>
+        <item>ホワイトボード</item>
+        <item>段ボール</item>
+        <item>その他荷物</item>
+        <item>溶解処分品</item>
+    </string-array>
+
+    <!-- サイズリスト -->
+    <string-array name="size_list">
+        <item></item>
+
+        <item>5x5x11</item>
+        <item>5x5x18</item>
+
+        <item>6x0.5x18</item>
+
+        <item>7x4x10</item>
+        <item>7x4x18</item>
+        <item>7x4x21</item>
+        <item>7x4.5x10</item>
+        <item>7x4.5x18</item>
+        <item>7x4.5x21</item>
+        <item>7x5.2x18</item>
+        <item>7x7x7</item>
+        <item>7x7x11</item>
+
+        <item>9x0.5x18</item>
+        <item>9x4x10</item>
+        <item>9x4x18</item>
+        <item>9x4x21</item>
+        <item>9x4.5x10</item>
+        <item>9x4.5x18</item>
+        <item>9x4.5x21</item>
+        <item>9x5.2x18</item>
+        <item>9x7x7</item>
+        <item>9x9x11</item>
+
+        <item>10x4.5x7</item>
+        <item>10x6x7</item>
+
+        <item>12x0.5x18</item>
+        <item>12x3x18</item>
+        <item>12x4.5x7</item>
+        <item>12x6x7</item>
+        <item>12x9x7</item>
+        <item>12x12x7</item>
+        <item>12x12x11</item>
+
+        <item>15x3x18</item>
+        <item>15x4x10</item>
+        <item>15x4x11</item>
+        <item>15x4x18</item>
+        <item>15x4.5x7</item>
+        <item>15x4.5x10</item>
+        <item>15x4.5x18</item>
+        <item>15x6x7</item>
+        <item>15x9x7</item>
+        <item>15x12x7</item>
+
+        <item>18x3x18</item>
+        <item>18x9x7</item>
+        <item>18x12x7</item>
+
+        <item>21x4.5x7</item>
+        <item>21x6x7</item>
+        <item>21x9x7</item>
+        <item>21x12x7</item>
+
+        <item>24x9x7</item>
+        <item>24x12x7</item>
+
+        <item>28x12x7</item>
+
+        <item>31x12x7</item>
+    </string-array>
+
+    <!-- ダイアログテキスト -->
+    <string name="dialog_title">チェック画面</string>
+    <string name="dialog_msg">新しく登録しますか？</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_ng">NG</string>
+
+    <string name="dialog_ok_toast">登録できました</string>
+    <string name="dialog_ng_toast">登録していません</string>
+
+    <!-- トーストテキスト -->
+    <string name="keikoku">値が入ってません</string>
+
+    <!-- コンテキストメニュー１ -->
+    <string name="co_t1">詳細</string>
+    <string name="co_t2">更新</string>
+    <string name="co_t3">削除</string>
+
+
+</resources>
